@@ -28,7 +28,7 @@ We train HINT based on the platform:
 
 ## Quick Start
 
-###1. Datasets
+#### 1. Datasets
 
 The full data can be downloaded from [THUcloud](https://cloud.tsinghua.edu.cn/f/3423fcf320a34447a07e/?dl=1).
 
@@ -57,7 +57,7 @@ The full data can be downloaded from [THUcloud](https://cloud.tsinghua.edu.cn/f/
 
 
 
-###2. Training ERIC
+#### 2. Training ERIC
 
 The initial checkpoint of BART can be downloaded from [HuggingFace](https://huggingface.co/facebook/bart-base/tree/main). We use the base version of BART for both training stages.
 
@@ -101,9 +101,7 @@ The initial checkpoint of BART can be downloaded from [HuggingFace](https://hugg
 
   The 2nd training stage is exactly the same as fine-tuning the standard BART model.
 
-
-
-### 3. Inference
+####  3. Inference
 
 The generation results are provided in the `generation_results` directory. Execute the following command to generate texts: 
 
@@ -126,7 +124,7 @@ python3 -u ./merge.py $target_name $output_suffix
 
 
 
-###4. Evaluation
+#### 4. Evaluation
 
 Execute the following command for evaluation (or run `cd ./src/eval && bash ./eval.sh` directly): 
 
@@ -141,7 +139,7 @@ You can change `result_list` in the script `eval.py` to specify the results you 
 
 
 
-### Citation
+## Citation
 
 Please kindly cite our paper if this paper and it is helpful.
 

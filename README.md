@@ -18,7 +18,7 @@ Other dependencies can be found in `requirements.txt`
 
 ## Computing infrastructure
 
-We train HINT based on the platform: 
+We train ERIC based on the platform: 
 
 - OS: Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-98-generic x86_64)
 - CUDA Version: 10.1
